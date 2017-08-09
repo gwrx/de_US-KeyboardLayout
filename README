@@ -5,11 +5,11 @@ This Keyboard Layout is a simple extension to the default US Layout to add äö�
 ## Install
 
 Simply copy the file to
-'/usr/share/X11/xkb/sumbols/'
+/usr/share/X11/xkb/symbols/
 change owner to root
 
-Add following
-'''
+Add
+
     <model>
       <configItem>
         <name>gwrx</name>
@@ -17,7 +17,7 @@ Add following
         <vendor>gwrx</vendor>
       </configItem>
     </model>
-'''
+
 to /usr/share/X11/xkb/rules/evdev.xml
 
 and choose your layout in the gnome keyboard settings application
