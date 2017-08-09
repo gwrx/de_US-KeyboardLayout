@@ -1,0 +1,23 @@
+# A custom Keyboard Layout to fit my needs
+
+This Keyboard Layout is a simple extension to the default US Layout to add äöü (adiaeresis, udiaeresis and odiaeresis) to aou because a native german needs diaeresis letters way more often than you might think.
+
+## Install
+
+Simply copy the file to
+'/usr/share/X11/xkb/sumbols/'
+change owner to root
+
+Add following
+'''
+    <model>
+      <configItem>
+        <name>gwrx</name>
+        <description>Generic 101 de_US Layout</description>
+        <vendor>gwrx</vendor>
+      </configItem>
+    </model>
+'''
+to /usr/share/X11/xkb/rules/evdev.xml
+
+and choose your layout in the gnome keyboard settings application
